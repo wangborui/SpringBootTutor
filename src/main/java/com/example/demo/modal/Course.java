@@ -12,6 +12,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Course {
+    private Long id;
     private String className;
     private Instructor instructor;
     private Date startDate;
